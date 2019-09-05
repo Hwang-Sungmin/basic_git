@@ -20,3 +20,4 @@ git config --global user.name "Sungmin"
 ## 추카 커맨드
 - git checkout [커밋해쉬] : 특정 commit을 확인
 - git checkout master : 최종 위치로 돌아옴
+- git restore [파일명] : 추가 내용을 버리고, 최종 커밋 버젼으로 복원
