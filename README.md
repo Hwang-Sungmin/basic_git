@@ -12,6 +12,11 @@ Git 기초 커맨드
 git config --global user.email "hsm511@ajou.ac.kr"
 git config --global user.name "Sungmin"
 
-- git log
+- git log : commit 히스토리
 
 해쉬(함수) : 2^160 : 해쉬를 기반으로해서 데이터 변화를 쉽게 파악 SHA1 
+
+
+## 추카 커맨드
+- git checkout [커밋해쉬] : 특정 commit을 확인
+- git checkout master : 최종 위치로 돌아옴
