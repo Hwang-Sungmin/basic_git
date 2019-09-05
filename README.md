@@ -21,3 +21,11 @@ git config --global user.name "Sungmin"
 - git checkout [커밋해쉬] : 특정 commit을 확인
 - git checkout master : 최종 위치로 돌아옴
 - git restore [파일명] : 추가 내용을 버리고, 최종 커밋 버젼으로 복원
+
+## 원격저장소 관리 (집에서 작업)
+- git remote : 원격 저장소의 정보(이름)
+- git remote -v : 원격 저장소 정보(이름, 주소)
+- git remote add [이름] [주소] : 원격저장소 추가
+git remote add root https://github.com/Hwang-Sungmin/basic_git.git
+- git push [저장소이름] [브랜치이름] : 원격저장소로 코드 업데이트
+- git clone [주소] [프로젝트이름] : 원격저장소 코드 복제
